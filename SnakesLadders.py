@@ -117,7 +117,8 @@ def update_game_board(row, current_player, current_player_sign, player_move, pla
             # adding steps to the block and the signs of the players
             if row_element == " ":
                 row_element = str(step)
-
+                
+                # updating current player sign on the board
                 if player_move == row_element:
                     players[current_player][2] = player_move
                     together += current_player_sign
