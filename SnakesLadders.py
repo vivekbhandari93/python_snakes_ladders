@@ -40,7 +40,7 @@ def is_ladder(row, current_player, current_player_sign, player_move, players):
             # pause the program for 3 seconds
             time.sleep(3)
 
-# Initial board is displayed on the screen before the game starts
+# Initial board is displayed on the screen when game starts
 def game_board(row, snake, ladder):
     # game title
     print("{0:^162}".format("SNAKE LADDER"))
