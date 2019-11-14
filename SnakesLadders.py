@@ -206,7 +206,7 @@ def game_start(players):
         for current_player in range(from_Player, till_player):
 
             current_player_sign = players[current_player][0]
-            input("Player {} press [ENTER] to roll the dice: ".format(current_player, current_player_sign))
+            input("Player {} press [ENTER] to roll the dice: ".format(current_player))
 
             # random library is used for dice work
             player_move = random.randint(1, 6)
